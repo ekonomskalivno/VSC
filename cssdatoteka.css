@@ -1,0 +1,65 @@
+h1{
+    color: rgb(0, 17, 255);
+    font-family:Georgia;
+    font-size:24px;
+    font-style: italic;
+    }
+.crvena
+    {
+    color: red; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    }
+/* kod ispod uokviruje Uredio Web programer u bijelo na stranici stanovništvo i postavlja okvir */
+.footer
+    {color: rgb(255, 255, 255);
+    border-style: inset;
+    border-right-color: chocolate;
+    border-left-color: chocolate;
+    border-radius: 20px 5px;
+    }
+strong
+    {
+    color: red;
+    }
+input[type="text"]
+    {
+    color: red;
+    }
+li:nth-child(2n)
+    {
+    color: red;
+    }
+/* boja linka */
+a:link
+    {
+    color: black;
+    }
+a:visited
+    {
+    color:rgb(0, 0, 0);
+    }
+/* prijelaz kursora miša preko linka */
+a:hover 
+    {
+    color: blue;
+    }
+/* primjer testiranja koda */
+p
+    {
+    /* color: blue; */
+    }
+/* primjer ispod pokazuje kako možemo dobiti poravnanje, razmak, sjenu, pozadinsku boju, razmak i marginu slova na naslovu teksta "Pretpovijesno dobar" */
+div.a {
+        text-align: center;
+        letter-spacing: 5px;
+        text-shadow: rgb(255, 81, 0) 20px 20px 20px, black 1px 1px;
+        background-color: burlywood;
+        padding: 10px;
+        margin: 10px;
+      }
+/* primjer ispod pokazuje kako možemo dobiti razmak između redova - dio Pretpovijesno doba */
+div.b {
+        line-height: 30px;     
+      }

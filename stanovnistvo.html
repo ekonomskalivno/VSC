@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Ovo je za podlogu boje stranice-->
+    <style>
+        body {background-color: powderblue;}
+    </style> 
+    <!--Pozivam vanjsku css datoteku pod nazivom cssdatoteka.css (dobro bi bilo da istu čim prije kreirate i popunite kodom)-->
+    <link rel="stylesheet" type="text/css" href="cssdatoteka.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <!-- Ovaj dio "style"koda ispod vam treba kako bi tekst omotali oko slike i samo ga pozovete kad zatreba-->
+    <style>
+        img {
+          float: left; margin-right:15px;
+        }
+    </style>
+    <title>STANOVNIŠTVO</title>
+</head>
+<body>
+    <p>
+        <!--ovo ispod je "sidro"da korisniku omogućimo da se vrati na vrh stranice ili gdje god mi želimo, dobro je imati ga na svim stranicama koje su duže za čitati i gdje god želimo možemo ga pozvati-->
+            <a name="VRH">
+        </p>
+    <nav>
+        <a href="index.html">NASLOVNICA</a> |
+        <a href="stanovnistvo.html">STANOVNIŠTVO</a> |
+        <a href="povijest.html">POVIJEST GRADA LIVNA</a> |
+    </nav>
+<P><h1>Izvješća i popisi katoličkog stanovništva na području Livna</h1> </P>
+<P>1624. - 150 katoličkih kuća u Livnu - Izvješće makarskog biskupa fra Bartola Kačića Žarkovića<sup>[10]</sup></P>
+<P>1704. - "U livanskoj župi (je) 400 duša" - Izvješće svećenika iz Makarske<sup>[11]</sup></P>
+<P>1741. - Livanjska župa ima oko 4000 duša <sup>[12]</sup></P>
+<P>1761. - 3.968 katolika u župi Livno - Popis biskupa fra Pavla Dragičevića od 9.-18. studenog 1761. godine<sup>[13]</sup></P>
+<P>1776. - 7.369 katolika u župi Livno - Popis biskupa fra Marka Dobretića u srpnju te godine<sup>[14]</sup></P>
+<P>1779. - 7.621 katolika u župi Livno - Popis biskupa fra Marka Dobretića u lipnju i srpnju te godine<sup>[15]</sup></P>
+<P>1797. - 6.870 katolika u župi Livno - Popis biskupa fra Grge Ilijića-Varešanina od 28. lipnja te godine <sup>[16]</sup></P>
+<P>1813. - 6.470 katolika u župi Livno - Gornje Brdo i Livno - Stanje župa u Bosni Srebrenoj<sup>[17]</sup></P>
+<!--Pripazi da ovdje ispod pozivamo CSS datoteku-->
+<p class="crvena"><b>Migracije</b></p>
+<p>Livanjski kraj je poznat po brojnim iseljavanjima. 
+Veliki broj stanovnika je tokom cijelog 20. stoljeća privremeno ili trajno napustio rodni kraj. 
+U Hrvatskoj su to najčešće odredišta: Dalmacija, Zagreb, Slavonija, U inozemstvu su to većinom zapadnoeuropske a manjim dijelom i prekooceanske zemlje.
+Prema podacima dobivenim iz popisa stanovništva 1991. godine s područja Livna u inozemstvu je boravilo 8.293 osoba (Hrvata: 7.705, tj. 92,91%).
+</p>
+<p><b<>Primjer forme upis podataka I</b></p>
+<!-- Primjeti kako će Mate Korona biti crvene boje jer smo input type text u css datoteci deklarirali crvenom bojom-->
+<form>
+    <label for="ime">Ime:</label><br>
+    <input type="text" id="ime" name="ime" value="Mate"><br>
+    <label for="prezime">Prezime:</label><br>
+    <input type="text" id="prezime" name="prezime" value="Korona"><br><br>
+    <input type="submit" value="Pošalji">
+  </form> 
+ <!-- Ovaj dio ispod je naravno copy/paste uz male dodatke na dnu-->
+  <p><b<>Primjer forme upis podataka II</b></p>
+  <form >
+    <label for="email">Unesite Vaš email:</label>
+    <input type="email" id="email" name="email"><br><br>  
+    <label for="pin">Unesite PIN Vašeg mobitela:</label>
+    <input type="text" id="pin" name="pin" maxlength="4"><br><br>  
+      <input type="reset" value="Poništi">
+    <input type="submit" value="Pošalji">
+  </form>
+  
+<h1>Naseljena mjesta</h1>
+ <!-- Ovaj dio "article"koda koristite kada neki tekst (u našem slučaju nabrajanje) želite naglasiti kao samostalnu cjelinu na stranici-->
+<article>
+  <h2>Abecednim redom</h2>
+  <p>Grad Livno sačinjavaju sljedeća sela (neka su već i napuštena a drugima prijeti izumiranje u sljedećih nekoliko desetaka godina)</p>
+  <ol>
+      <li>Bila</li> 
+      <li>Bilo Polje</li>
+      <li>Bogdaše</li>
+      <li>Bojmunte</li>
+      <li>Ćaić</li>
+      <li>Čaprazlije</li>
+      <li>Čelebić</li>
+      <li>Čuklić</li>
+      <li>Ćosanlije</li>
+      <li>Dobro</li>
+      <li>Donji Rujani</li>
+      <li>Drinova Međa</li>
+      <li>Držanlije</li>
+      <li>Golinjevo</li>
+      <li>Gornji Rujani</li>
+      <li>Grborezi</li>
+      <li>Grgurići</li>
+      <li>Gubin</li>
+      <li>Komorani</li>
+      <li>Kovačić</li>
+      <li>Lipa</li>
+      <li>Lištani</li>
+      <li>Livno</li>
+      <li>Lopatice</li>
+      <li>Lusnić</li>
+      <li>Ljubunčić</li>
+      <li>Mali Guber</li>
+      <li>Mali Kablići</li>
+      <li>Miši</li>
+      <li>Odžak</li>
+      <li>Orguz</li>
+      <li>Podgradina</li>
+      <li>Podgreda</li>
+      <li>Podhum</li>
+      <li>Potkraj</li>
+      <li>Potočani</li>
+      <li>Potok</li>
+      <li>Priluka</li>
+      <li>Prisap</li>
+      <li>Prolog</li>
+      <li>Provo</li>
+      <li>Radanovci</li>
+      <li>Rapovine</li>
+      <li>Sajković</li>
+      <li>Smričani</li>
+      <li>Srđevići</li>
+      <li>Strupnić</li>
+      <li>Suhača</li>
+      <li>Tribić</li>
+      <li>Veliki Guber</li>
+      <li>Veliki Kablići</li>
+      <li>Vidoši</li>
+      <li>Vrbica</li>
+      <li>Vržerala</li>
+      <li>Zabrišće</li>
+      <li>Zagoričani</li>
+      <li>Zastinje</li>
+      <li>Žabljak</li>
+      <li>Žirović</li>
+        
+  </ol>  
+  
+</article>
+<!--Kod ispod direktno poziva CSS stiliziranje-->
+<p style="color:red;">
+    Tko je Web programer i rano rani, dvije plaće grabi.
+</p>
+<footer>
+<!--Kod ispod poziva sil iz vanjske CSS datoteke preko deklaracije klase-->
+    <p class=footer>Uredio: Web programeri</p>
+    <p>Kontakt informacije: <a href="mailto:ekonomska.livno@gmail.com">ekonomska.livno@gmail.com</a></p>
+<!-- Aside element uklopljen u podnožje stranice-->
+    <p><b>Naše Facebook stranice</b></p><aside><a href="https://www.facebook.com/ekonomskalivnosluzbenastranica">
+        <img src=eko5.jpg alt=SEŠ Livno-Facebook></a></aside>
+  </footer>
+ <p><b>Tražilica-primjer</b></p> 
+ <form>
+    <label for="gsearch">Pretraži:</label>
+    <input type="search" id="gsearch" name="gsearch">
+    <input type="submit">
+  </form> 
+  <p><b><i><a href="#VRH">Klikni za povratak na vrh :-)</a></b></i></p>
+<!--Pripazi da u kodu ispod jasno vidimo kako će pojmovi "starac Vukadin","Vrlo" i "Vukadin" biti crvene boje jer su unutar strong-->
+<h1>Kako je <strong>starac Vukadin</strong> tražio istinu</h1>
+<span>Bilo je to u <strong>VRLO</strong> davno doba.</span>Na jednoj krčevini u staroj bukovoj gori živio starac <strong>Vukadin</strong> sa svoja tri unuka.</p>
+</body>
+</html>
